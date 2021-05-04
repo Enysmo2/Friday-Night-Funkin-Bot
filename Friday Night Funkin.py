@@ -1,7 +1,6 @@
 token = 'your token.'
 import discord
 from discord.ext import commands
-from io import BytesIO
 import os
 import asyncio
 from pynput.keyboard import Key, Controller
