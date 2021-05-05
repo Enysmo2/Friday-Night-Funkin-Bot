@@ -8,8 +8,6 @@ import time
 
 keyboard = Controller()
 
-os.chdir(r"C:\Users\Semyon\Desktop\code\other")
-
 bot = discord.Client()
 bot = commands.Bot(command_prefix='!')#you can change it to anything you want
 bot.remove_command('help')#remove if you want default !help command
